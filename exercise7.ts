@@ -24,3 +24,5 @@ console.log(`Multiplications result: ${multiplicationResult}`)
 let divisionResult = 16 / 2;
 
 console.log(`Division Reslt: ${divisionResult}`)
+
+export{};
