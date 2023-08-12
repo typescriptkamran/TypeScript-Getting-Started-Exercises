@@ -5,6 +5,7 @@ Alien Colors #1: Imagine an alien was just shot down in a game. Create a variabl
 
 • Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 let alien_color = 'green';
 if (alien_color == 'green') {
     console.log("Congratulations! You just earned 5 points.");
