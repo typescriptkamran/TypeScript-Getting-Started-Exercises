@@ -9,5 +9,5 @@ console.log(`3rd name from list: ${names[2]}`);
 console.log(`4th name from list: ${names[3]}`);
 // or we can print it with for loop. it will pring all names dynamically.
 for (let i = 0; i < names.length; i++) {
-    console.log(`\nWith for loop: ${i} name in list: ${names[i]}`);
+    console.log(`\nWith for loop: At index ${i} name in list is : ${names[i]}`);
 }
