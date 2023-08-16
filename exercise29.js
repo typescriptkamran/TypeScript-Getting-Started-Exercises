@@ -4,20 +4,21 @@
 
 • Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas! */
 // Define the array of fruits
-const favoriteFruits = ["apple", "banana", "orange", "grape", "mango"];
+const favorite_fruits = ["apple", "banana", "orange"];
+/// syntex: arrayName.includes("element")
 // Check for specific fruits using independent if statements
-if (favoriteFruits.includes("apple")) {
+if (favorite_fruits.includes("apple")) {
     console.log("I like apples!");
 }
-if (favoriteFruits.includes("banana")) {
+if (favorite_fruits.includes("banana")) {
     console.log("I enjoy bananas!");
 }
-if (favoriteFruits.includes("orange")) {
+if (favorite_fruits.includes("orange")) {
     console.log("Oranges are delicious!");
 }
-if (favoriteFruits.includes("grape")) {
+if (favorite_fruits.includes("grape")) {
     console.log("Grapes are tasty!");
 }
-if (favoriteFruits.includes("mango")) {
+if (favorite_fruits.includes("mango")) {
     console.log("Mangoes are one of my favorites!");
 }
