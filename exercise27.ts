@@ -60,3 +60,4 @@ if (alien_color === 'green') {
     console.log('Unknown alien color.');
 }
 
+export{};

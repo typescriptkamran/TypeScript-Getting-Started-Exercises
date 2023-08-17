@@ -17,3 +17,5 @@ function greetUsers(): void {
     }
 }
 greetUsers()
+
+export{};

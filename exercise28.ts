@@ -46,3 +46,5 @@ if (age < 2) {
 } else {
     console.log(`Age is ${age}, The person is an elder.`);
 }
+
+export{};

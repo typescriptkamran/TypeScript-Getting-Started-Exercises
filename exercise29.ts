@@ -27,3 +27,5 @@ if (favorite_fruits.includes("grape")) {
 if (favorite_fruits.includes("mango")) {
     console.log("Mangoes are one of my favorites!");
 } 
+
+export{};
