@@ -1,15 +1,12 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-/* Hello Admin: Make an array of five or more userNames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
+/* No Users: Add an if test to Exercise 30 to make sure the list of users is not empty.
+• If the list is empty, print the message We need to find some users!
 
-• If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
-
-• Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+• Remove all of the usernames from your array, and make sure the correct message is printed.
 */
-// Empty array case
-const emptyUserNames = [];
+Object.defineProperty(exports, "__esModule", { value: true });
 // Non-empty array case
-const userNames = ['admin', 'Ali Phull', 'Muhammad Kamran', 'Muhammad Burhan', 'Muhammad Ali'];
+let userNames = ['admin', 'Ali Phull', 'Muhammad Kamran', 'Muhammad Burhan', 'Muhammad Ali'];
 //functional case
 function greetUsers(usernames) {
     if (usernames.length === 0) {
@@ -25,7 +22,9 @@ function greetUsers(usernames) {
         }
     }
 }
-console.log(`for non empty username:\n`);
+console.log(`For non empty username:\n`);
 greetUsers(userNames);
-console.log(`for empty username:\n`);
-greetUsers(emptyUserNames);
+// to make array empty we just assing an empty array to userNames
+userNames = [];
+console.log(`\n\n For empty username:\n`);
+greetUsers(userNames);
