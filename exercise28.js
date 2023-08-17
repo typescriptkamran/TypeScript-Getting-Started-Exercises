@@ -13,6 +13,7 @@ If the person is less than 2 years old, print a message that the person is a bab
 
 • If the person is age 65 or older, print a message that the person is an elder.
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 let age = 25;
 // less than 2 years old, print a message that the person is a baby.
 if (age < 2) {

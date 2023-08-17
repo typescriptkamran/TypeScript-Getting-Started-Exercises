@@ -9,6 +9,7 @@ Alien Colors #3: Turn your if-else chain from pevious Exercise into an if-else c
 
 • Write three versions of this program, making sure each message is printed for the appropriate color alien.
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 // version 1 - where align color is green`
 console.log(`1st version where align color is green`);
 let alien_color = 'green';

@@ -5,6 +5,7 @@
 
 • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 const userNames = ['admin', 'Ali Phull', 'Muhammad Kamran', 'Muhammad Burhan', 'Muhammad Ali'];
 function greetUsers() {
     for (const i in userNames) {

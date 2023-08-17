@@ -3,6 +3,7 @@
 • Make a array of your three favorite fruits and call it favorite_fruits.
 
 • Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas! */
+Object.defineProperty(exports, "__esModule", { value: true });
 // Define the array of fruits
 const favorite_fruits = ["apple", "banana", "orange"];
 /// syntex: arrayName.includes("element")
