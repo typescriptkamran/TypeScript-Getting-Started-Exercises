@@ -27,4 +27,4 @@ for (const animal of animals) {
 }
 // Common characteristic
 console.log("\nWhat these animals have in common:");
-console.log("Any of these animals would make a great pet!");
+console.log("Any of these animals could be a great pet!");
