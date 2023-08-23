@@ -7,8 +7,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // Array of magician's names
 const magicianNames = ["Harry Porter", "David Copperfield", "Hermione Granger", "Professor Albus Dumbledore", "Ron Weasley"];
 function show_magicians(magicians) {
-    for (const magician of magicians) {
-        console.log(magician);
+    for (const items of magicians) {
+        console.log(items);
     }
 }
 // Call the function to show the magician's names

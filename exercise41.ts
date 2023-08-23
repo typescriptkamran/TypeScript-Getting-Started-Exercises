@@ -8,8 +8,8 @@ const magicianNames: string[] = ["Harry Porter", "David Copperfield", "Hermione 
 
 function show_magicians(magicians: string[]): void
 {
-    for (const magician of magicians) {
-        console.log(magician);
+    for (const items of magicians) {
+        console.log(items);
     }
 }
 
