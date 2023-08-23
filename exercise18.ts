@@ -35,6 +35,9 @@ console.log(travelDestinations)
 console.log("\n Alphabetical order without modifying the actual list")
 console.log([...travelDestinations].sort())
 
+let a = [1, 2, 3, 4, 5]
+let b = a.map(x => x*2)
+console.log("new aray with .map", b)
 // Step 4: Show that your array is still in its original order by printing it again.
 
 console.log("\nShowing array is still in its original order")
