@@ -7,6 +7,7 @@ City Names: Write a function called city_country() that takes in the name of a c
 Call your function with at least three city-country pairs, and print the value that’s returned.
 
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 // arrow function
 const city_country = (city, country) => {
     return `${city}, ${country}`;

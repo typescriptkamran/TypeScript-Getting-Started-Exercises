@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /*Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 
 • Make a list of five or more usernames called current_users.

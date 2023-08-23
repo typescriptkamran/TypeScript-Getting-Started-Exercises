@@ -8,6 +8,7 @@ Add an optional parameter to make_album() that allows you to store the number of
 
 Make at least one new function call that includes the number of tracks on an album.
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 function make_album(artist, title, tracks) {
     const album = {
         artist,
