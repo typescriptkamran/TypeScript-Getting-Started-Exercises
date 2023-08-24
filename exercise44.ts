@@ -16,7 +16,7 @@ function makeSandwich(...items: string[]): void {
 
 // Call the function with different numbers of arguments
 makeSandwich()
-makeSandwich("Turkey", "Lettuce", "Tomato", "Mayonnaise");
-makeSandwich("Ham", "Cheese");
-makeSandwich("Peanut Butter", "Jelly", "Banana", "Honey");
+makeSandwich("Chiken brest", "Lettuce", "Tomato", "Mayonnaise");
+makeSandwich("Beef", "Cheese", "onion");
+makeSandwich("Peanut Butter", "Jelly", "Mayonnaise", "Honey");
     
