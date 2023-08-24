@@ -16,3 +16,5 @@ function show_magicians(magicians: string[]): void
 
 // Call the function to show the magician's names
 show_magicians(magicianNames);
+
+export{}
