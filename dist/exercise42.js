@@ -6,7 +6,7 @@ Great Magicians: Start with a copy of your program from Exercise 41. Write a fun
 */
 // Array of magician's names
 const magicianNames = ["Harry Porter", "David Copperfield", "Hermione Granger", "Professor Albus Dumbledore", "Ron Weasley"];
-function showMagicians(magicians) {
+function show_magicians(magicians) {
     for (const magician of magicians) {
         console.log(magician);
     }
@@ -17,9 +17,6 @@ function make_great(magicians) {
 }
 // Modify the array to add "the Great" to each magician's name
 const greatMagicianNames = make_great(magicianNames);
-// Call the function to show the original magician's names
-console.log("Original Magicians:");
-showMagicians(magicianNames);
 // Call the function to show the great magician's names
 console.log("\nGreat Magicians:");
-showMagicians(greatMagicianNames);
+show_magicians(greatMagicianNames);
