@@ -21,11 +21,17 @@ This guide will walk you through the process of installing TypeScript on a Windo
 ## Step 3: Create a TypeScript Project
 
 1. Create a new folder for your TypeScript project.
-2. Navigate to the project folder using the Command Prompt or PowerShell.
+2. Navigate to the project folder using the Command Prompt.
+Run the TypeScript compiler using the following command:
+
+   ```
+   tsc --init
+   ```
+   It will create a `tsconfig.json` file in your project folder.
 
 ## Step 4: Configure tsconfig.json
 
-Create a `tsconfig.json` file in your project folder. Below is a sample configuration that explains each chosen option:
+ Below is a sample configuration that explains each chosen option:
 
 ```json
 {
@@ -51,11 +57,11 @@ Create a `tsconfig.json` file in your project folder. Below is a sample configur
 
 ## Step 5: Write TypeScript Code
 
-1. Create `.ts` files in your project folder and start writing TypeScript code.
+1. Create `exersise1.ts, exersise2.ts ... ` files in your project folder and start writing TypeScript code.
 
 ## Step 6: Compile TypeScript Code
 
-1. In the Command Prompt or PowerShell, navigate to your project folder.
+1. In the Command Prompt, navigate to your project folder.
 2. Run the TypeScript compiler using the following command:
 
    ```
@@ -63,3 +69,22 @@ Create a `tsconfig.json` file in your project folder. Below is a sample configur
    ```
 
    This will compile your TypeScript code based on the configurations in `tsconfig.json` and generate JavaScript files in the specified `outDir`.
+
+## Step 6: Run Your Node.js Application
+Open a Command Prompt window.
+
+Navigate to the "dist" directory within your project folder.
+
+sh
+Copy code
+cd dist
+Run your Node.js application using the node command followed by the name of your compiled JavaScript file. For example:
+
+sh
+Copy code
+node exercise1.js
+Replace exercise1.js with the name of your compiled JavaScript file.
+
+Your Node.js application should now be running, and you'll see the output in the command window.
+
+ 
