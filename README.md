@@ -71,19 +71,28 @@ Run the TypeScript compiler using the following command:
    This will compile your TypeScript code based on the configurations in `tsconfig.json` and generate JavaScript files in the specified `outDir`.
 
 ## Step 6: Run Your Node.js Application
-Open a Command Prompt window.
 
-Navigate to the "dist" directory within your project folder.
+1. Navigate to the "dist" directory within your project folder.
 
-sh
-Copy code
+```
 cd dist
-Run your Node.js application using the node command followed by the name of your compiled JavaScript file. For example:
+```
 
-sh
-Copy code
+2. Run your Node.js application using the node command followed by the name of your compiled JavaScript file.
+   For example:
+
+
+```
 node exercise1.js
+```
+
 Replace exercise1.js with the name of your compiled JavaScript file.
+
+or you can directly run .js file from your project root:
+
+```
+node ./dist/exercise1.js
+```
 
 Your Node.js application should now be running, and you'll see the output in the command window.
 
